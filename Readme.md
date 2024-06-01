@@ -21,7 +21,7 @@ This Python script automates the process of capturing an ngrok SSH tunnel URL fr
  `ngrok` installed and accessible in your PATH
  `scrot` utility installed (for taking screenshots)
 
-##OS Support
+### OS Support
 
 - [x] Linux 
  - [ ]  Windows
