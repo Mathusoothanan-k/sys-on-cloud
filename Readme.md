@@ -67,7 +67,7 @@ By following these steps, you'll enhance the security of your Google account whi
     ```sh
     ngrok authtoken YOUR_AUTHTOKEN
     ```
-# Documentations
+### Documentations
 - [Ngrok Documentation](https://ngrok.com/docs)
 - [Ngrok Support](https://ngrok.com/support)
 
