@@ -43,11 +43,8 @@ This Python script automates the process of capturing an ngrok SSH tunnel URL fr
     ```sh
     sudo apt-get install scrot
     ```
-## Setting Up Two-Factor Authentication (2FA) and Generating an App Password for Your Google Account
-
-To securely send emails from your Python script using your Google account, follow these steps to enable Two-Factor Authentication (2FA) and generate an app-specific password.
-
-## Enable Two-Factor Authentication (2FA)
+    
+### Enable Two-Factor Authentication (2FA) For Gmail purpose
 
 Ensure that two-factor authentication is enabled for your Google account. If it's not already enabled, follow these steps:
 
@@ -55,7 +52,7 @@ Ensure that two-factor authentication is enabled for your Google account. If it'
 2. Select "Security" from the left-hand menu.
 3. Under "Signing in to Google," select "2-Step Verification" and follow the on-screen instructions to set it up.
 
-## Generate an App Password
+### Generate an App Password
 
 Once 2FA is enabled, you can generate an app-specific password for use in your script:
 
