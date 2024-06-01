@@ -24,23 +24,6 @@ This Python script automates the process of capturing an ngrok SSH tunnel URL fr
 - [x] Linux 
  - [ ]  Windows
  - [ ]  Mac ISO
-
-### Installation
-
-1. Install the required Python libraries:
-    ```sh
-    pip install psutil pytesseract Pillow
-    ```
-
-2. Install `tesseract-ocr` on your system. For example, on Ubuntu:
-    ```sh
-    sudo apt-get install tesseract-ocr
-    ```
-
-3. Install `scrot` on your system. For example, on Ubuntu:
-    ```sh
-    sudo apt-get install scrot
-    ```
     
 ### Enable Two-Factor Authentication (2FA) For Gmail purpose
 
@@ -75,6 +58,18 @@ By following these steps, you'll enhance the security of your Google account whi
     ```sh
     python script_name.py
     ```
+### NGROK Service connection
+
+1. Sign up for an ngrok account if you don't have one: [ngrok Sign Up](https://dashboard.ngrok.com/signup).
+2. Log in to your ngrok dashboard: [ngrok Dashboard](https://dashboard.ngrok.com).
+3. Copy your authtoken from the dashboard.
+4. Run the following command to add your authtoken:
+    ```sh
+    ngrok authtoken YOUR_AUTHTOKEN
+    ```
+# Documentations
+- [Ngrok Documentation](https://ngrok.com/docs)
+- [Ngrok Support](https://ngrok.com/support)
 
 ### Script Details
 
