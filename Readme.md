@@ -43,20 +43,20 @@ This Python script automates the process of capturing an ngrok SSH tunnel URL fr
     ```sh
     sudo apt-get install scrot
     ```
-###Steps to Get an App Password for Gmail
+### Steps to Get an App Password for Gmail
 
-    Enable Two-Factor Authentication (2FA)
-        Ensure that two-factor authentication is enabled for your Google account. If it's not already enabled, follow these steps:
-          1.  Go to your Google Account.
-          2.  Select "Security" from the left-hand menu.
-          3.  Under "Signing in to Google," select "2-Step Verification" and follow the on-screen instructions to set it up.
-
-    Generate an App Password
-        Once 2FA is enabled, you can generate an app-specific password:
-          1.  Go to the App passwords page in your Google account.
-          2.  Enter a name for the app password, such as "Python Email Script."
-          3.  Click "Generate."
-          4.  Google will display a 16-character app password. Make sure to copy it and store it securely as you will need it in your script.
+   Enable Two-Factor Authentication (2FA)
+      Ensure that two-factor authentication is enabled for your Google account. If it's not already enabled, follow these steps:
+        1.  Go to your Google Account.
+        2.  Select "Security" from the left-hand menu.
+        3.  Under "Signing in to Google," select "2-Step Verification" and follow the on-screen instructions to set it up.
+   Generate an App Password
+       Once 2FA is enabled, you can generate an app-specific password:
+        1.  Go to the App passwords page in your Google account.
+        2.  Enter a name for the app password, such as "Python Email Script."
+        3.  Click "Generate."
+        4.  Google will display a 16-character app password. Make sure to copy it and store it securely as you will need it in your script.
+        
 ### Usage
 
 1. Start the ssh service 
