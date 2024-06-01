@@ -1,5 +1,3 @@
-
-
 <!-- ABOUT THE PROJECT -->
 # About The Project
 
@@ -9,17 +7,17 @@ This Python script automates the process of capturing an ngrok SSH tunnel URL fr
 
 ### Prerequisites
 
-  Python 3.x
- `psutil` library
- `subprocess` module (part of Python standard library)
- `time` module (part of Python standard library)
- `os` module (part of Python standard library)
- `pytesseract` library
- `Pillow` library
- `smtplib` library (part of Python standard library)
- `email` library (part of Python standard library)
- `ngrok` installed and accessible in your PATH
- `scrot` utility installed (for taking screenshots)
+*  Python 3.x
+* `psutil` library
+* `subprocess` module (part of Python standard library)
+* `time` module (part of Python standard library)
+* `os` module (part of Python standard library)
+* `pytesseract` library
+* `Pillow` library
+* `smtplib` library (part of Python standard library)
+* `email` library (part of Python standard library)
+* `ngrok` installed and accessible in your PATH
+* `scrot` utility installed (for taking screenshots)
 
 ### OS Support
 
