@@ -1,7 +1,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+# About The Project
 
 Ngrok SSH Automation Script for sys on cloud in linux
 
@@ -43,7 +43,7 @@ This Python script automates the process of capturing an ngrok SSH tunnel URL fr
     ```sh
     sudo apt-get install scrot
     ```
-# Setting Up Two-Factor Authentication (2FA) and Generating an App Password for Your Google Account
+## Setting Up Two-Factor Authentication (2FA) and Generating an App Password for Your Google Account
 
 To securely send emails from your Python script using your Google account, follow these steps to enable Two-Factor Authentication (2FA) and generate an app-specific password.
 
