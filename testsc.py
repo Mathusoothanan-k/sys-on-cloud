@@ -50,7 +50,7 @@ if __name__ == "__main__":
     port = result.stdout.strip()
     output = f"ssh kali@0.tcp.in.ngrok.io -p {port}"
 
-    sender_email = 'XXXXXXXXXXXXXXX'
+    sender_email = 'XXXXXXXXXXXXXX'
     app_password = 'XXXXXXXXXXXXXX'
     receiver_email = 'XXXXXXXXXXXX'
     subject = 'SSH key'
